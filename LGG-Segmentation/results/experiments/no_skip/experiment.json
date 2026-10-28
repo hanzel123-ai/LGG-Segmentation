@@ -1,0 +1,76 @@
+{
+  "signature": "9aa024037c7b0066251efd1d8e90afc445e76d02a96ce5125d6e93d5bef8a9fc",
+  "spec": {
+    "seed": 42,
+    "image_size": 256,
+    "base_channels": 32,
+    "batch_size": 4,
+    "epochs": 5,
+    "learning_rate": 0.0001,
+    "threshold": 0.5,
+    "experiment": {
+      "name": "no_skip",
+      "use_skips": false,
+      "loss": "bce_dice"
+    },
+    "split_hash": "5f36971e09b6f830cea6cc199f7d0dc13fc88b029946445862084d79f431e4f7",
+    "core_hash": "23be2fb8218631024bbd269c5434c693e36f468ca836216bf8b041da6f8c356c"
+  },
+  "runtime": {
+    "device": "auto",
+    "cpu_threads": 4,
+    "cpu_bfloat16": false,
+    "gpu_amp": true
+  },
+  "sessions": [
+    {
+      "started": "2026-10-24 16:15:54",
+      "device": "cpu",
+      "torch": "2.14.1+cu130",
+      "runtime": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "cpu_bfloat16": true,
+        "gpu_amp": true
+      }
+    },
+    {
+      "started": "2026-10-24 16:22:21",
+      "device": "cpu",
+      "torch": "2.14.1+cu130",
+      "runtime": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "cpu_bfloat16": false,
+        "gpu_amp": true
+      },
+      "purpose": "checkpoint reload check; no training steps"
+    },
+    {
+      "started": "2026-10-24 16:22:34",
+      "device": "cpu",
+      "torch": "2.14.1+cu130",
+      "runtime": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "cpu_bfloat16": false,
+        "gpu_amp": true
+      },
+      "purpose": "checkpoint reload check; no training steps"
+    },
+    {
+      "started": "2026-10-25 22:24:04",
+      "device": "cuda",
+      "torch": "2.8.0+cu126",
+      "runtime": {
+        "device": "auto",
+        "cpu_threads": 4,
+        "cpu_bfloat16": false,
+        "gpu_amp": true
+      }
+    }
+  ],
+  "device": "cuda",
+  "torch": "2.8.0+cu126",
+  "parameters": 6979681
+}
