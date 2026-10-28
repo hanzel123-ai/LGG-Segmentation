@@ -1,0 +1,9 @@
+patient,slice_id,category,reference_model
+TCGA_DU_5874_19950510,20,low,unet
+TCGA_DU_6404_19850629,44,low,unet
+TCGA_HT_7608_19940304,19,middle,unet
+TCGA_DU_6404_19850629,39,middle,unet
+TCGA_FG_7634_20000128,22,high,unet
+TCGA_HT_7684_19950816,17,high,unet
+TCGA_FG_8189_20030516,51,empty_high_fp,unet
+TCGA_FG_8189_20030516,1,empty_high_fp,unet

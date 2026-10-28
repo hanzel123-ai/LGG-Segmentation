@@ -1,0 +1,4 @@
+split,patients,slices,positive,empty
+test,16,549,181,368
+train,78,2753,962,1791
+val,16,627,230,397

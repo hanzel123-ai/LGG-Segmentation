@@ -1,0 +1,9 @@
+torch>=2.3
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.7
+tifffile>=2023.7
+pillow>=10
+notebook>=7
+ipykernel>=6
+nbformat>=5.9
